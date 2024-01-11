@@ -305,6 +305,7 @@ $primary: #FFAB9D;
 
 @media (max-width: 768.98px) {
   .about {
+    padding-top: 30px;
     .__container {
       .aboutAs {
         flex-wrap: wrap;
@@ -376,18 +377,19 @@ $primary: #FFAB9D;
 
 @media (max-width: 540.98px) {
   .about {
-    padding-top: 10px;
+    padding-top: 60px;
     .__container {
       .aboutAs {
         flex-wrap: wrap;
         align-items: start;
 
         .imageIbg {
-          aspect-ratio: 7/8;
+          padding-left: 30%;
+          aspect-ratio: 3/8;
 
           .imageRadius {
-            width: 230px;
-            height: 230px;
+            width: 300px;
+            height: 300px;
           //  margin-left: 60px;
             //padding-top: 10px;
           }
@@ -426,7 +428,7 @@ $primary: #FFAB9D;
     .__container {
       .aboutAs {
         .imageIbg {
-          aspect-ratio: 6/8;
+          aspect-ratio: 3/8;
 
         }
       }
@@ -439,10 +441,18 @@ $primary: #FFAB9D;
 
     .__container {
       .aboutAs {
-        .imageIbg {
-          aspect-ratio: 5/8;
 
+        .imageIbg {
+          padding-left: 20%;
+          aspect-ratio: 2/8;
+
+          .imageRadius {
+            width: 230px;
+            height: 230px;
+
+          }
         }
+
       }
     }
   }
